@@ -51,13 +51,13 @@
     stroke-miterlimit: 10;
 }
 
-/* Caixa transparente que certifica-se que os ponteiros estão corretamente centralizados*/
+/* Transparent box ensuring arms center properly. */
 .sizing-box {
     fill: none;
 }
 
-/* Faz com que os ponteiros caminhem ao redor do mesmo ponto central */
-/* Opcional: Use transition para criar animação */
+/* Make all arms rotate around the same center point. */
+/* Optional: Use transition for animation. */
 #hour,
 #minute,
 #second {
